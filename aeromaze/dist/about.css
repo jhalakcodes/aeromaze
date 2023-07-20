@@ -1,0 +1,68 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+
+  #mainNavbar {
+    font-size: 1.5rem;
+    font-weight: 100;    
+  }
+  
+  #mainNavbar .nav-link {
+    color: rgb(66, 46, 47);
+  }
+  
+  #mainNavbar .nav-link:hover {
+    color: #ffffff;
+  }
+  
+  
+  
+  .navbar.scrolled {
+    background: rgba(0, 0, 0, 0.5);
+    transition: background 500ms;
+    
+  }
+  
+  
+  
+  
+  
+  navbar-nav {
+    display: flex;
+    align-items: center;
+  }
+  
+  .navbar-nav.ml-auto {
+    margin-left: auto;
+  }
+  
+  .navbar-nav.mr-auto {
+    margin-right: auto;
+  }
+  
+  
+  h1 {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    margin: 0;
+  }
+  
+  h2 {
+    color: #333;
+    margin-top: 20px;
+  }
+  
+  .content {
+    margin: 20px;
+  }
+  
+  ul {
+    padding-left: 20px;
+  }
+  
+  .developer {
+    font-weight: bold;
+  }

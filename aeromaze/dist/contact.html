@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="contact.css">
+</head>
+<body>
+  <header>
+    <h1>Contact Us</h1>
+  </header>
+
+  <main>
+    <section class="contact-info">
+      <h2>Contact Information</h2>
+      <div class="info">
+        <div class="info-item">
+          <img src="./contact icons/call.png" alt="Phone Icon">
+          <p>Phone: 123-456-7890</p>
+        </div>
+        <div class="info-item">
+          <img src="./contact icons/mail.png" alt="Email Icon">
+          <p>Email: info@airportnav.com</p>
+        </div>
+        <div class="info-item">
+          <img src="./contact icons/social media.png" alt="Location Icon">
+          <p>Social Media: @linkkk </p>
+        </div>
+        <div class="info-item">
+          <img src="./contact icons/operation.png" alt="Clock Icon">
+          <p>Hours of Operation: 24/7</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact-form">
+      <h2>Send us a Message</h2>
+      <form id="contact-form" onsubmit="submitForm(event)">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" required></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2023 Airport Navigation System. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
